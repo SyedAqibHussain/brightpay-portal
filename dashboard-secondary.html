@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Dashboard Secondary - Brightpay</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- custom styles -->
+  <link rel="stylesheet" href="./css/dashboard-styles.css">
+
+  <!-- javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+  <div class="root-container d-flex flex-column">
+    <div class="d-flex align-items-center navbar-container">
+      <div class="col d-flex navbar-left-container">
+        <img src="./images/login-logo.png" alt="brightpay-logo" class="brightpay-logo" />
+        <div class="col searchbar-container d-flex">
+            <img src="./images/search-icon.png" alt="password visible" class="searchbar-icon" />
+            <input class="searchbar-input col" placeholder="Search patients or doctors" />
+        </div>
+      </div>
+      <div class="d-flex navbar-right-container">
+        <div class="d-flex align-items-center navbar-icons-container">
+          <img src="./images/wallet-icon.png" alt="wallet" class="navbar-icon" />
+          <img src="./images/notification-icon.png" alt="notifications" class="navbar-icon" />
+        </div>
+        <div class="d-flex profile-details-container">
+          <div class="d-flex align-items-center justify-content-center profile-initials-container">
+            <p class="m-0 profile-initials-text">JD</p>
+          </div>
+          <div class="profile-name-container">
+            <p class="profile-type-text">Patient</p>
+            <p class="m-0 profile-name-text">John Doe</p>
+          </div>
+          <img src="./images/chevron-down.png" alt="profile-dropdown" class="col align-self-center profile-dropdown-icon" /> 
+        </div>
+      </div>
+    </div>
+
+    <div class="col d-flex body-container">
+      <div class="d-flex flex-column sidebar">
+        <!-- Dashboard -->
+        <div class='d-flex sidebar-item'>
+          <div class='sidebar-active'>
+          </div>
+          <a href="./dashboard-primary.html" class="col d-flex align-items-center sidebar-text-container active">
+              <img src="./images/dashboard.svg" alt="dashboard-icon" class="sidebar-icon" />
+              <p class="m-0 sidebar-text-active">Dashboard</p>
+          </a>
+        </div>
+        <!-- My profile -->
+        <div class='d-flex sidebar-item'>
+          <div class='sidebar-inactive'>
+          </div>
+          <a href="./my-profile.html" class="col d-flex align-items-center sidebar-text-container">
+              <img src="./images/my-profile.svg" alt="dashboard-icon" class="sidebar-icon" />
+              <p class="m-0 sidebar-text-inactive">My Profile</p>
+          </a>
+        </div>
+        <!-- Terms & Conditions -->
+        <div class='d-flex sidebar-item'>
+          <div class='sidebar-inactive'>
+          </div>
+          <a href="./dashboard-primary.html" class="col d-flex align-items-center sidebar-text-container">
+              <img src="./images/terms-conditions.svg" alt="dashboard-icon" class="sidebar-icon" />
+              <p class="m-0 sidebar-text-inactive">Terms & Conditions</p>
+          </a>
+        </div>
+        <!-- Help Center -->
+        <div class='d-flex sidebar-item'>
+          <div class='sidebar-inactive'>
+          </div>
+          <a href="./dashboard-primary.html" class="col d-flex align-items-center sidebar-text-container">
+              <img src="./images/help-center.svg" alt="dashboard-icon" class="sidebar-icon" />
+              <p class="m-0 sidebar-text-inactive">Help Center</p>
+          </a>
+        </div>
+        <!-- Providers -->
+        <div class='d-flex sidebar-item'>
+          <div class='sidebar-inactive'>
+          </div>
+          <a href="./dashboard-primary.html" class="col d-flex align-items-center sidebar-text-container">
+              <img src="./images/providers.svg" alt="dashboard-icon" class="sidebar-icon" />
+              <p class="m-0 sidebar-text-inactive">Providers</p>
+          </a>
+        </div>
+        <!-- Logout -->
+        <div class='d-flex sidebar-item'>
+          <div class='sidebar-inactive'>
+          </div>
+          <a href="./dashboard-primary.html" class="col d-flex align-items-center sidebar-text-container">
+              <img src="./images/logout.svg" alt="dashboard-icon" class="sidebar-icon" />
+              <p class="m-0 sidebar-text-inactive">Logout</p>
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex flex-column dashboard-container">
+        <p class="m-0 dashboard-title">Dashboard</p>
+        <div class="col d-flex align-items-start dashboard-content-container">
+          <div class="col d-flex check-eligibility-container">
+          <div class="d-flex flex-column check-eligibility-div">
+            <div class="d-flex align-items-center check-eligibility-header">
+              <div class="d-flex align-items-center justify-content-center eligibility-image-container">
+                <img src="./images/eligibility.png" alt="check eligibility" class="eligibility-image" />
+              </div>
+              <p class="m-0 check-eligibility-title">Check Insurance Eligibility</p>
+            </div>
+            <div class="d-flex flex-column approved-insurance-container">
+              <div class="col d-flex approved-insurance-header-container">
+                <p class="m-0 approved-header-text">Primary Insurance</p>
+                <div class="approved-status-container">
+                  <p class="m-0 approved-status-text">Active</p>
+                </div>
+              </div>
+              <div class="d-flex flex-wrap justify-content-between approved-insurance-footer-container">
+                <div class="col d-flex flex-wrap approved-footer-left-container">
+                  <div class="col d-flex flex-column footer-info-div">
+                    <p class="m-0 footer-info-title">Payer</p>
+                    <p class="m-0 footer-info-text">CVS</p>
+                  </div>
+                  <div class="col d-flex flex-column footer-info-div">
+                    <p class="m-0 footer-info-title">Member ID</p>
+                    <p class="m-0 footer-info-text">ABZ0000000</p>
+                  </div>
+                  <div class="col d-flex flex-column footer-info-div">
+                    <p class="m-0 footer-info-title">Date of Birth</p>
+                    <p class="m-0 footer-info-text">16/08/1980</p>
+                  </div>
+                  <div class="col d-flex flex-column footer-info-div">
+                    <p class="m-0 footer-info-title">Provider</p>
+                    <p class="m-0 footer-info-text">David Parker</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-wrap approved-footer-right-container">
+                  <a class="view-info-div">
+                    <p class="m-0 view-info-text">View</p>
+                  </a>
+                  <a class="d-flex flex-column justify-content-center info-options-container">
+                    <div class="info-options-div"></div>
+                    <div class="info-options-div"></div>
+                    <div class="info-options-div"></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="eligibility-info-container">
+              <p class="m-0 eligibility-info-header">Enter Insurance Information</p>
+              <div class="d-flex flex-column flex-wrap eligibility-form-container">
+                <div class="col d-flex flex-wrap eligibility-form-top-container">
+                  <div class="form-div">
+                    <p class="m-0 form-title">Insurace Type</p>
+                    <div class="d-flex insurance-type-container">
+                      <div class="d-flex align-items-center justify-content-center insurance-div primary-insurance-div">
+                        <p class="m-0 insurance-type-text">Primary</p>
+                      </div>
+                      <div class="d-flex align-items-center justify-content-center insurance-div secondary-insurance-div active">
+                        <p class="m-0 insurance-type-text active">Secondary</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-div">
+                    <p class="m-0 form-title">Payer</p>
+                    <input class="form-input" />
+                </div>
+                <div class="form-div">
+                  <p class="m-0 form-title">Member ID</p>
+                  <input class="form-input" />
+                </div>
+              </div>
+              <div class="col d-flex flex-wrap eligibility-form-bottom-container">
+                <div class="form-div">
+                  <p class="m-0 form-title">Date of Birth</p>
+                  <input type="date" data-date="" data-date-format="MM-DD-YYYY" value="2018-04-22" class="form-input date-input">
+                </div>
+                <div class="form-div">
+                  <p class="m-0 form-title">Provider</p>
+                  <input class="form-input" />
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between flex-wrap save-info-container">
+              <div class="d-flex align-items-center save-info-checkbox">
+                <label class="custom-checkbox-container">
+                  <input type="checkbox" checked="checked" class="save-info-input" />
+                  <span class="save-info-span"></span>
+                </label>
+
+                <p class="m-0 save-info-text">Save this information</p>
+              </div>
+              <a href="./run-eligibility-check.html" class="run-check-container">
+                <p class="m-0 run-check-text">Run Eligibility Check</p>
+              </a>
+            </div>
+          </div>
+          </div>
+          <div class="d-flex flex-column update-profile-container">
+            <a class="d-flex align-self-end align-items-center justify-content-center close-icon-container" onclick="closeContainer()">
+              <img src="./images/close-icon.png" alt="close-icon" class="close-icon" />
+            </a>
+            <img src="./images/welcome.png" alt="welcome-icon" class="welcome-icon" />
+            <p class="m-0 welcome-header">Welcome to BrightPay!</p>
+            <p class="m-0 welcome-text">Fusce fringilla eros risus.Maecenas ullamcorper, massa quis porta dictum.Leo mauris posuere lacus, in pellentesque erat tortor quis dui.</p>
+            <div class="col d-flex align-items-end">
+              <a href="./my-profile.html" class="d-flex update-profile-div">
+                <p class="m-0 update-profile-text">Update My Profile</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+<!-- scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+$(document).ready( function() {
+    var now = new Date();
+    var month = (now.getMonth() + 1);               
+    var day = now.getDate();
+    if (month < 10) 
+        month = "0" + month;
+    if (day < 10) 
+        day = "0" + day;
+    var today = now.getFullYear() + '-' + month + '-' + day;
+    $('.date-input').val(today);
+});
+</script>
+<script>
+  function closeContainer() {
+    console.log('clicked', document.getElementsByClassName("update-profile-container")[0])
+    document.getElementsByClassName("update-profile-container")[0].style.setProperty("display", "none", "important");
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+.root-container {
+  min-height: 100vh;
+}
+
+.login-main-container {
+  max-width: 812px;
+  padding: 16px;
+}
+
+.login-form-container {
+  max-width: 536px;
+}
+
+.login-logo {
+  width: 130px;
+  height: 60px;
+  margin-bottom: 36px;
+}
+
+.login-header {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  color: #000;
+  text-transform: capitalize;
+  margin-bottom: 36px;
+}
+
+.google-btn-container {
+  border: 1.5px solid #01395A;
+  border-radius: 110px;
+  padding: 14px 0px;
+  margin-bottom: 36px;
+}
+
+.google-btn-image {
+  width: 20px;
+  height: 20px;
+}
+
+.google-btn-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #01395A;
+  margin-left: 16px;
+  margin-bottom: 0px;
+}
+
+.separator-container {
+  margin-bottom: 36px;
+}
+
+.separator-line {
+  border-bottom: 1px dashed #8D99A6;
+}
+
+.separator-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5B5D5F;
+  border: 1px solid #8D99A6;
+  border-radius: 90px;
+  width: 37.17px;
+  height: 36.18px;
+}
+
+.form-input-container {
+  margin-bottom: 36px;
+}
+
+.form-input-header {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.form-input {
+  border: 1px solid #CECECE !important;
+  border-radius: 6px !important;
+  height: 56px !important;
+  margin: 0px !important;
+}
+
+.form-password-input {
+  background-color: transparent !important;
+  border: 0px !important;
+  height: 56px !important;
+  box-shadow: none !important;
+}
+
+.password-eye {
+  width: 16px;
+  height: 16px;
+  align-self: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+}
+
+.checkbox-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-left: 8px;
+}
+
+.forgot-password-link {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #0078BE;
+  cursor: pointer;
+}
+
+.login-btn {
+  background: #3AD664;
+  border: 1px solid #008516;
+  border-radius: 110px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  text-align: center;
+  padding: 16px 0px;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-bottom: 120px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background: #3AD664;
+  border: 1px solid #008516;
+  border-radius: 110px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  text-align: center;
+  padding: 16px 0px;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin-bottom: 36px;
+  cursor: pointer;
+}
+
+.login-btn:hover, .login-btn:focus {
+  color: #000;
+}
+
+.not-registered-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  text-align: center;
+}
+
+.create-account-link {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0078BE;
+  cursor: pointer;
+}
+
+.form-multi-column-container {
+  gap: 20px;
+}
+
+.form-select::after {
+  font-family: "Ionicons";
+  content: '\f123';
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  margin-right: 1rem;
+}
+
+.form-select::after {
+  font-family: "Ionicons";
+  content: "\f126";
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.login-gradient-container {
+    background-image:
+      linear-gradient(
+        45deg, 
+        #003B5F, #00273F
+      );
+      width: auto;
+}
+
+.login-image {
+  margin-bottom: 88px;
+}
+
+.login-image-text-container {
+  max-width: 222px;
+}
+
+.login-image-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 12px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.login-image-info {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #9A9A9A;
+  margin-bottom: 32px;
+}
